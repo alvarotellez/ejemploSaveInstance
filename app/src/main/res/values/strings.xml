@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ejemploSaveInstance</string>
+    <string name="suma">+1</string>
+    <string name="mostrar">Mostrar</string>
+</resources>
