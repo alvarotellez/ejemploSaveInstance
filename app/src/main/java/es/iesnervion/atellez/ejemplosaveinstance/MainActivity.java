@@ -7,10 +7,10 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    Integer contador = 0;
-    static final String TOTAL = "contador";
-    Button btn1, btnMostrar;
-    TextView txtResultado;
+    private Integer contador = 0;
+    private static final String TOTAL = "contador";
+    private Button btn1, btnMostrar;
+    private TextView txtResultado;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }else{
             contador = 0;
         }
+        txtResultado.setText(contador.toString());
     }
 
     @Override
